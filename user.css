@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    background-image: url('farm.jpeg'); /* Replace 'your-image.jpg' with the path to your background image */
+    background-size: cover; /* Adjusts the image to cover the entire background of the text */
+    background-position: center; /* Centers the background image */
+    color: white; /* Set text color to ensure it's visible over the background */
+    padding: 80px;
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    /* display: inline-block; Shrinks the h1 width to the content */
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-left: 20px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.item img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.item h3 {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.item p {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 1.5rem;
+}
+
+.item label {
+    font-size: 1.5rem;
+    margin-left: 300px;
+}
+
+.item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+.item select{
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+input#search-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.seaimg{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.location-input {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.location-input label {
+    font-weight: bold;
+}
+
+.location-input input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}

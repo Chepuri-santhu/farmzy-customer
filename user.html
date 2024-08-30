@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetable and Fruit Ordering Portal</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <h1>ORDER VEGETABLE AND FRUITS</h1>
+    <img class="seaimg" src="search.png" alt="search image">
+    <input type="text" id="search-box" placeholder="Search for vegetables or fruits..." onkeyup="searchItems()">
+
+
+    <div class="section">
+        <h2>Vegetables</h2>
+        <div class="item">
+            <input type="checkbox" id="tomato-checkbox" data-price="40">
+            <img src="tomatoes.jpeg" alt="Tomatoes">
+            <h3>Tomatoes</h3>
+            <p>Price: ₹40 per kg</p>
+            <label for="tomato-quantity">Quantity:</label>
+            <select id="tomato-quantity" disabled>
+                <option value="1">1 kg</option>
+                <option value="2">2 kg</option>
+                <option value="3">3 kg</option>
+            </select>
+        </div>
+        <div class="item">
+            <input type="checkbox" id="potato-checkbox" data-price="30">
+            <img src="potato.jpeg" alt="Potatoes">
+            <h3>Potatoes</h3>
+            <p>Price: ₹30 per kg</p>
+            <label for="potato-quantity">Quantity:</label>
+            <select id="potato-quantity" disabled>
+                <option value="1">1 kg</option>
+                <option value="2">2 kg</option>
+                <option value="3">3 kg</option>
+            </select>
+        </div>
+        <div class="item">
+            <input type="checkbox" id="mirchi-checkbox" data-price="50">
+            <img src="mirchi.jpeg" alt="Mirchi">
+            <h3>Mirchi</h3>
+            <p>Price: ₹50 per kg</p>
+            <label for="mirchi-quantity">Quantity:</label>
+            <select id="mirchi-quantity" disabled>
+                <option value="1">1 kg</option>
+                <option value="2">2 kg</option>
+                <option value="3">3 kg</option>
+            </select>
+        </div>
+        <div class="item">
+            <input type="checkbox" id="bottle-gourd-checkbox" data-price="25">
+            <img src="bottlegourd.jpeg" alt="Bottle Gourd">
+            <h3>Bottle Gourd</h3>
+            <p>Price: ₹25 per kg</p>
+            <label for="bottle-gourd-quantity">Quantity:</label>
+            <select id="bottle-gourd-quantity" disabled>
+                <option value="1">1 kg</option>
+                <option value="2">2 kg</option>
+                <option value="3">3 kg</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Fruits</h2>
+        <div class="item">
+            <input type="checkbox" id="apple-checkbox" data-price="150">
+            <img src="apple.jpeg" alt="Apples">
+            <h3>Apples</h3>
+            <p>Price: ₹150 per kg</p>
+            <label for="apple-quantity">Quantity:</label>
+            <select id="apple-quantity" disabled>
+                <option value="1">1 kg</option>
+                <option value="2">2 kg</option>
+                <option value="3">3 kg</option>
+            </select>
+        </div>
+        <div class="item">
+            <input type="checkbox" id="grape-checkbox" data-price="80">
+            <img src="grapes.jpeg" alt="Grapes">
+            <h3>Grapes</h3>
+            <p>Price: ₹80 per kg</p>
+            <label for="grape-quantity">Quantity:</label>
+            <select id="grape-quantity" disabled>
+                <option value="1">1 kg</option>
+                <option value="2">2 kg</option>
+                <option value="3">3 kg</option>
+            </select>
+        </div>
+        <div class="item">
+            <input type="checkbox" id="pomegranate-checkbox" data-price="120">
+            <img src="pomegranate.jpeg" alt="Pomegranates">
+            <h3>Pomegranates</h3>
+            <p>Price: ₹120 per kg</p>
+            <label for="pomegranate-quantity">Quantity:</label>
+            <select id="pomegranate-quantity" disabled>
+                <option value="1">1 kg</option>
+                <option value="2">2 kg</option>
+                <option value="3">3 kg</option>
+            </select>
+        </div>
+    </div>
+    <div class="location-input">
+        <label for="delivery-location">Delivery Location:</label>
+        <input type="text" id="delivery-location" placeholder="Enter your delivery location">
+    </div>
+
+    <!-- <button onclick="placeOrder()">Place Order</button> -->
+
+    <button onclick="placeOrder()">Place Order</button>
+
+    <script src="user.js"></script>
+</body>
+</html>
